@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2 ?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/caption.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    
+    <title>Kalkulator walut</title>
+</head>
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walut</legend>
+        <p>
+            <label class="form__label">Przelicz z: <select class="form__select js-currencyFrom" name="currencyFrom">
+                <option value="PLN" selected>Złoty polski (PLN)</option>
+                <option value="USD">Dolar amerykański (USD)</option>
+                <option value="GBP">Funt brytyjski (GBP)</option>
+                <option value="EUR">Euro (EUR)</option>
+            </select>
+ </label>
+ 
+ <label class="form__label">Przelicz na: <select class="form__select js-currencyTo" name="currencyTo">
+    <option value="PLN" selected>Złoty polski (PLN)</option>
+    <option value="USD">Dolar amerykański (USD)</option>
+    <option value="GBP">Funt brytyjski (GBP)</option>
+    <option value="EUR">Euro (EUR)</option>
+</select>
+</label>
+
+<label class="form__label">
+     Kwota:* <input class="form__input js-amount " type="number" name="amount" required step="0.01">
+</label>
+        </p>
+        <p>
+            <button class="form__button">Konwertuj</button>
+        </p>
+        <p class="form__result js-result" name="result">Kwota po przeliczeniu:</p>
+        </fieldset>
+    </form>
+    <p class="caption">*Pole wymagane</p>
+    
+</body>
+</html>
