@@ -2,7 +2,7 @@
 
 This project is a simple web application that converts currencies.
 
-<img src="images/screen.png" width="500px"/>
+![Kalkulator walut](https://i.postimg.cc/j2FRpcKm/screen.png)
 
 ## Currencies available:
 1. **PLN** - Polish Złoty
