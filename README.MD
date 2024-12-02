@@ -30,5 +30,5 @@ This project is a simple web application that converts currencies.
 
 If you have any questions: [CONTACT ME](mailto:joanna.gorniak.00@gmail.com)
 
-[CURRENCY CONVERTER]()
+[CURRENCY CONVERTER](https://joanna2307.github.io/kalkulator-walut/)
 
